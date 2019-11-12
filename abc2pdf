@@ -1,0 +1,11 @@
+#!/bin/bash
+
+abc_file=$1
+if [[ -r "$abc_file" ]]; then
+  basename="${abc_file%.abc}"
+  abcm2ps -O = "$basename.abc"
+  ps2pdf "$basename.ps"
+  pdfcrop "$basename.pdf"
+  rm -f "$basename.ps"
+  mv -f "$basename-crop.pdf" "$basename.pdf"
+fi
