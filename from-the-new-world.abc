@@ -1,6 +1,13 @@
 X: 1
 M: 4/4
 L: 1/4
+%%score {RH | LH}
+V: RH clef=treble
+V: LH clef=bass
 K: C
-E3 G | G4 | E3 D | C4 | D2 E2 | G3 E | D4 | -D4 |
-E3 G | G4 | E3 D | C4 | D2 E2 | D3 C | C4 | -C4 |]
+%
+[V: RH] "_3"E3 "_5"G | "_5"G4 | "_3"E3 "_2"D | "_1"C4 | "_2"D2 "_3"E2 | "_5"G3 "_3"E | "_2"D4 | -D4 |
+[V: LH] z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 |
+%
+[V: RH] "_3"E3 "_5"G | "_5"G4 | "_3"E3 "_2"D | "_1"C4 | "_2"D2 "_3"E2 | "_2"D3 "_1"C | "_1"C4 | -C4 |]
+[V: LH] z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 |]

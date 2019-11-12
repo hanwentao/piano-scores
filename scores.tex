@@ -1,5 +1,5 @@
 \documentclass[a4paper,12pt,fontset=none]{ctexart}
-\usepackage[margin=2cm]{geometry}
+\usepackage[hmargin=2cm,vmargin=4cm]{geometry}
 \usepackage[pdftitle=电钢琴班乐谱,pdfauthor=韩文弢]{hyperref}
 \usepackage{abc}
 
@@ -11,11 +11,11 @@
 
 \begin{document}
 
-\pagestyle{empty}
+\pagestyle{plain}
 
 \maketitle
 
-\thispagestyle{empty}
+\thispagestyle{plain}
 
 \section{玛丽有只小羔羊}
 
@@ -32,5 +32,9 @@
 \section{铃儿响叮当}
 
 \abcinput[program=abcm2ps,options={-O=}]{jingle-bells}
+
+\section{小夜曲}
+
+\abcinput[program=abcm2ps,options={-O=}]{serenade}
 
 \end{document}
