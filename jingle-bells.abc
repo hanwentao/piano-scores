@@ -6,14 +6,14 @@ V: RH clef=treble
 V: LH clef=bass
 K: C
 %
-[V: RH] "_3"E E E2 | "_3"E E E2 | "_3"E "_5"G "_1"C "_2"D | "_3"E4 |
+[V: RH] "^3"E E E2 | "^3"E E E2 | "^3"E "^5"G "^1"C "^2"D | "^3"E4 |
 [V: LH] x4 | x4 | x4 | x4 |
 %
-[V: RH] "_4"F F F F | "_4"F "_3"E E E | "_3"E "_2"D D "_3"E | "_2"D2 "_5"G2 |
+[V: RH] "^4"F F F F | "^4"F "^3"E E E | "^3"E "^2"D D "^3"E | "^2"D2 "^5"G2 |
 [V: LH] x4 | x4 | x4 | x4 |
 %
-[V: RH] "_3"E E E2 | "_3"E E E2 | "_3"E "_5"G "_1"C "_2"D | "_3"E4 |
+[V: RH] "^3"E E E2 | "^3"E E E2 | "^3"E "^5"G "^1"C "^2"D | "^3"E4 |
 [V: LH] x4 | x4 | x4 | x4 |
 %
-[V: RH] "_4"F F F F | "_4"F "_3"E E E | "_5"G G "_4"F "_2"D | "_1"C4 |]
+[V: RH] "^4"F F F F | "^4"F "^3"E E E | "^5"G G "^4"F "^2"D | "^1"C4 |]
 [V: LH] x4 | x4 | x4 | x4 |]
