@@ -3,7 +3,7 @@ PDF_FILE = $(TEX_FILE:.tex=.pdf)
 JPEG_FILE = $(TEX_FILE:.tex=.jpg)
 SCORE_ABC_FILES = $(wildcard *.abc)
 SCORE_PDF_FILES = $(SCORE_ABC_FILES:.abc=.pdf)
-SCORE_MIDI_FILES = $(ABC_FILES:.abc=.mid)
+SCORE_MIDI_FILES = $(SCORE_ABC_FILES:.abc=.mid)
 
 .PHONY: all pdf jpeg midi clean
 
@@ -25,4 +25,4 @@ midi: $(SCORE_MIDI_FILES)
 
 clean:
 	latexmk -C
-	$(RM) *.mid *.pdf
+	$(RM) *.mid *.pdf *.jpg
