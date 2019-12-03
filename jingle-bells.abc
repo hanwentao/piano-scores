@@ -7,13 +7,13 @@ V: LH clef=bass
 K: C
 %
 [V: RH] "^3"E E E2 | "^3"E E E2 | "^3"E "^5"G "^1"C "^2"D | "^3"E4 |
-[V: LH] x4 | x4 | x4 | x4 |
+[V: LH] x4         | x4         | x4                      | x4     |
 %
 [V: RH] "^4"F F F F | "^4"F "^3"E E E | "^3"E "^2"D D "^3"E | "^2"D2 "^5"G2 |
-[V: LH] x4 | x4 | x4 | x4 |
+[V: LH] x4          | x4              | x4                  | x4            |
 %
 [V: RH] "^3"E E E2 | "^3"E E E2 | "^3"E "^5"G "^1"C "^2"D | "^3"E4 |
-[V: LH] x4 | x4 | x4 | x4 |
+[V: LH] x4         | x4         | x4                      | x4     |
 %
 [V: RH] "^4"F F F F | "^4"F "^3"E E E | "^5"G G "^4"F "^2"D | "^1"C4 |]
-[V: LH] x4 | x4 | x4 | x4 |]
+[V: LH] x4          | x4              | x4                  | x4     |]
