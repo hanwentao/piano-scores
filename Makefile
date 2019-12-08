@@ -6,6 +6,7 @@ SCORE_PDF_FILES = $(SCORE_ABC_FILES:.abc=.pdf)
 SCORE_MIDI_FILES = $(SCORE_ABC_FILES:.abc=.mid)
 SCORE_WAVE_FILES = $(SCORE_ABC_FILES:.abc=.wav)
 SCORE_AAC_FILES = $(SCORE_ABC_FILES:.abc=.aac)
+SCORE_MP3_FILES = $(SCORE_ABC_FILES:.abc=.mp3)
 
 .PHONY: all pdf jpeg midi clean
 
@@ -23,6 +24,8 @@ wave: $(SCORE_WAVE_FILES)
 
 aac: $(SCORE_AAC_FILES)
 
+mp3: $(SCORE_MP3_FILES)
+
 %.pdf: %.abc
 	./abc2pdf $<
 
@@ -35,6 +38,9 @@ aac: $(SCORE_AAC_FILES)
 %.aac: %.wav
 	ffmpeg -i $< -acodec aac $@
 
+%.mp3: %.wav
+	ffmpeg -i $< -acodec libmp3lame $@
+
 clean:
 	latexmk -C
-	$(RM) *.mid *.wav *.aac *.pdf *.jpg
+	$(RM) *.mid *.wav *.aac *.mp3 *.pdf *.jpg
