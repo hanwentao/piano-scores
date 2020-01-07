@@ -8,7 +8,7 @@ SCORE_WAVE_FILES = $(SCORE_ABC_FILES:.abc=.wav)
 SCORE_AAC_FILES = $(SCORE_ABC_FILES:.abc=.aac)
 SCORE_MP3_FILES = $(SCORE_ABC_FILES:.abc=.mp3)
 
-.PHONY: all pdf jpeg midi clean
+.PHONY: all pdf jpeg midi wave aac mp3 clean
 
 all: pdf
 
